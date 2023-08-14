@@ -1,0 +1,41 @@
+{
+    "Zinc": {
+        "template": "uniform",
+        "block": {
+            "name": "Steamcraft:steamcraftOre",
+            "metadata": 1
+        },
+        "clusterSize": 6,
+        "numClusters": 4,
+        "minHeight": 20,
+        "maxHeight": 55,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Sapphire": {
+        "template": "uniform",
+        "block": "PracticalLogistics:SapphireOre",
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 30,
+        "maxHeight": 55,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

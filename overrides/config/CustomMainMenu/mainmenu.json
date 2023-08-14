@@ -1,0 +1,163 @@
+{
+    "images":
+    {
+
+		"black":
+        {
+            "image" : "mainmenu:textures/layer.png",
+            "posX" : -800,
+            "posY" : 10,
+            "width" : 2000,
+            "height" : 30,
+            "imageWidth" : 1366,
+            "imageHeight" : 664,
+            "alignment" : "top_center"
+        }
+	},
+
+    "buttons":
+    {
+		"multiplayer":
+        {
+ 			"texture" : "mainmenu:textures/button.png",
+			"text" : "Play Online",
+			"fontsize" : 3,
+			"normalTextColor" : 16758272,
+			"hoverTextColor" : 1357312,
+            "posX" : -220,
+            "posY" : 15,
+            "width" : 80,
+            "height" : 20,
+			      "alignment" : "top_center",
+            "tooltip": "I feel lonely, come and play with me.",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+		"singleplayer":
+        {
+            "text" : "Singleplayer",
+      			"normalTextColor" : 16758272,
+      			"hoverTextColor" : 1357312,
+      			"texture" : "mainmenu:textures/button.png",
+            "posX" : -130,
+            "posY" : 15,
+            "width" : 80,
+            "height" : 20,
+			      "alignment" : "top_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "weblink_forum":
+        {
+            "texture" : "mainmenu:textures/button.png",
+            "text" : "Forum",
+            "posX": -50,
+            "posY" : 15,
+            "width" : 80,
+            "height" : 20,
+            "normalTextColor" : 16758272,
+			      "hoverTextColor" : 1357312,
+            "tooltip": "Link to our Community",
+			      "alignment" : "top_center",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://goo.gl/vsg5t0"
+            }
+		},
+
+    "weblink_youtube":
+    {
+        "texture" : "mainmenu:textures/button.png",
+        "text" : "Youtube",
+        "posX": 20,
+        "posY" : 15,
+        "width" : 80,
+        "height" : 20,
+        "normalTextColor" : 16758272,
+        "hoverTextColor" : 1357312,
+        "tooltip": "Link to Zeranax Youtube channel",
+        "alignment" : "top_center",
+        "action" :
+        {
+            "type" : "openLink",
+            "link" : "https://goo.gl/rmYsA9"
+        }
+},
+
+		"options":
+        {
+            "text" : "Options",
+      			"normalTextColor" : 16758272,
+      			"hoverTextColor" : 1357312,
+      			"texture" : "mainmenu:textures/button.png",
+            "posX" : 90,
+            "posY" : 15,
+            "width" : 80,
+            "height" : 20,
+			      "alignment" : "top_center",
+            "tooltip": "Options and Language",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "Quit",
+      			"texture" : "mainmenu:textures/button.png",
+      			"normalTextColor" : 16758272,
+      			"hoverTextColor" : 14483456,
+            "posX" : 150,
+            "posY" : 15,
+            "width" : 80,
+            "height" : 20,
+      			"alignment" : "top_center",
+      			"hoverText" : "Don't leave!",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+    },
+
+    "texts":
+    {
+
+    },
+
+
+	"alignments":
+    {
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
+    },
+
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:textures/background.png",
+			"mode" : "stretch"
+		}
+    }
+}
