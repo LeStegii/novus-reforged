@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Novus Reforged",
-  "version": "1.0",
+  "version": "3.0.3.3",
   "author": "LeStegii",
   "files": [
     {
@@ -142,6 +142,11 @@
     {
       "projectID": 224867,
       "fileID": 2301651,
+      "required": true
+    },
+    {
+      "projectID": 278494,
+      "fileID": 4473363,
       "required": true
     },
     {
@@ -385,6 +390,11 @@
       "required": true
     },
     {
+      "projectID": 270441,
+      "fileID": 2462371,
+      "required": true
+    },
+    {
       "projectID": 228702,
       "fileID": 2280728,
       "required": true
@@ -397,6 +407,11 @@
     {
       "projectID": 225194,
       "fileID": 2272496,
+      "required": true
+    },
+    {
+      "projectID": 239197,
+      "fileID": 2838720,
       "required": true
     },
     {
@@ -497,11 +512,6 @@
     {
       "projectID": 226406,
       "fileID": 2264779,
-      "required": true
-    },
-    {
-      "projectID": 238770,
-      "fileID": 2286993,
       "required": true
     },
     {
@@ -640,8 +650,8 @@
       "required": true
     },
     {
-      "projectID": 231305,
-      "fileID": 4055735,
+      "projectID": 421184,
+      "fileID": 3154046,
       "required": true
     },
     {
@@ -655,6 +665,11 @@
       "required": true
     },
     {
+      "projectID": 227873,
+      "fileID": 2367311,
+      "required": true
+    },
+    {
       "projectID": 242878,
       "fileID": 2287046,
       "required": true
@@ -662,11 +677,6 @@
     {
       "projectID": 232075,
       "fileID": 2249874,
-      "required": true
-    },
-    {
-      "projectID": 224029,
-      "fileID": 2259434,
       "required": true
     },
     {
@@ -702,6 +712,11 @@
     {
       "projectID": 229627,
       "fileID": 2244632,
+      "required": true
+    },
+    {
+      "projectID": 229306,
+      "fileID": 2262092,
       "required": true
     },
     {
