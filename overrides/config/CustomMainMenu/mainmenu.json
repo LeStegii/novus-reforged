@@ -212,7 +212,13 @@
 			"image" : "",
 			"slideshow":
 			{
-				"images" : ["custommainmenu:textures/bg/back1.png","custommainmenu:textures/bg/back2.png","custommainmenu:textures/bg/back3.png","custommainmenu:textures/bg/back4.png","custommainmenu:textures/bg/back5.png","custommainmenu:textures/bg/back6.png","custommainmenu:textures/bg/back7.png","custommainmenu:textures/bg/back8.png","custommainmenu:textures/bg/back9.png"],
+				"images" : [
+					"custommainmenu:textures/background/background1.png",
+					"custommainmenu:textures/background/background2.png",
+					"custommainmenu:textures/background/background3.png",
+					"custommainmenu:textures/background/background4.png",
+					"custommainmenu:textures/background/background5.png"
+				],
 				"displayDuration" : 100,
 				"fadeDuration" : 40
 			}
